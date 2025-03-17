@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>CAMPUS SOCIALE DE L'UNIVERSITE DE THIES</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/IMG-20211128-WA0034.jpg" rel="icon">
+  <link href="assets/img/IMG-20211128-WA0034.jpg" rel="apple-touch-icon">
+
+ 
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- assets CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-phone d-flex align-items-center"><span>33 939 76 00</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> LUNDI-DIMANCHE: 24h/24 7j/7</span></i>
+      </div>
+
+      <div class="languages d-none d-md-flex align-items-center">
+        <ul>
+          <li>FR</li>
+          <li><a href="#">De</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--=======end top bar=======-->
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+      <img src="assets/img/IMG-20211128-WA0034.jpg" alt="logo UIDT" width="80px" height="80px">
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">CAMPUS SOCIALE</a></h1>  
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">ACCUEIL</a></li>
+          <li class="dropdown"><a href="#"><span>RESTAURANT</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto" href="#menu">GESTION MENU</a></li>
+              <button onclick="GticketR()">GESTION TICKETS</button>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#specials">SERVICES MEDICALE</a></li>
+          <li class="dropdown"><a href="#"><span>TRANSPORT</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto" href="#events">GESTION BUS</a></li>
+              <button onclick="GticketB()">GESTION TICKETS</button>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>UFR</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="https://ufrset.univ-thies.sn">SET</a></li>
+              <li><a href="https://uit.univ-thies.sn">UIT</a></li>
+              <li><a href="https://ufrses.univ-thies.sn">SES</a></li>
+              <li><a href="https://ufrsi.univ-thies.sn">SI</a></li>
+              <li><a href="https://ufrsante.univ-thies.sn">SS</a></li>
+              <li><a href="https://ed2ds.univ-thies.sn">ED2DS</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li class="dropdown"><a href="#"><span  class="book-a-table-btn scrollto d-none d-lg-flex">SITE VCN</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <a href="#book-a-table">RECHERCHE SALLE</a>
+              <li><a class="nav-link scrollto" href="#gallery">IMAGES CAMPUS SOCIALE</a></li>
+            </ul>
+          </li>
+      </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Bienvenue au <span>campus sociale</span></h1>
+          <h2> le campus aux Services de l'etudiant de l'U.I.D.T</h2>
+
+          <div class="btns">
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto">MENU RESTAURANT</a>
+            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">RECHERCHE de SALLE</a>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+          <!--a href="https://www.youtube.com/watch?v=GlrxcuEDyF8" class="glightbox play-btn"></a-->
+          <video src="assets/img/Universite_de_Thies_Change(360p).mp4" controls poster="assets/img/1622037002.jpg" width="80%" height="auto" video-align="right">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= appropos Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="assets/img/univ-thies-03.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>universite iba der thiam de thies</h3>
+            <p class="fst-italic">
+              campus sociale de l'universite --->
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i>site vcn</li>
+              <li><i class="bi bi-check-circle"></i>hotel du rail</li>
+            </ul>
+            <p>
+              par ses nombreux services(<strong>bourses et aides financieres, logement, restauration, transports, aide sociale, culture et loisirs</strong>), 
+              le service aux etudiants peut faciliter votre integration et votre vie quotidienne.
+              vous pourrez manger de bons plats , et, ce, pour un petit prix, dans tous les restaurants universitaires.
+              pour que vos premiers pas dans notre universite et sur le campus ne se transforment pas en parcours du combattant, 
+              diverses informations pratiques(restauration, transports, assistances sociales, sante) ont ete regroupes dans ce site.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- =======menu resto Section ======= -->
+    <section id="menu" class="menu section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Restaurant</h2>
+          <p>choisir votre Menu </p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-starters">petit dejeuner</li>
+              <li data-filter=".filter-salads">dejeuner</li>
+              <li data-filter=".filter-specialty">diner</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="assets/img/menu/petit-dejeuner-barcelone.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">pain mayonnaise</a><span>50 fcfa</span>
+            </div>
+            <div class="menu-ingredients">
+              pain,moyonnaise,lait,cafe(kango),sucre
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="assets/img/menu/sddefault.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">saut de boeuf au lentilles</a><span>100 fcfa</span>
+            </div>
+            <div class="menu-ingredients">
+              lentilles,viande de boeuf,bouillons,pommes de terre
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="assets/img/menu/img-20191112-113654-largejpg.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">pain beure</a><span>50 fcfa</span>
+            </div>
+            <div class="menu-ingredients">
+              pain,beure,lait,cafe(kango),sucre
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets/img/menu/mbaxalou-saloum.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">mbakhalou-saloum</a><span>100 fcfa</span>
+            </div>
+            <div class="menu-ingredients">
+              riz,arachides,huile(ou pas),bouillons(pas forcements)
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="assets/img/menu/vermicelles3-scaled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">saut de boeuf au vermicelles</a><span>100 fcfa</span>
+            </div>
+            <div class="menu-ingredients">
+              vermicelles,viande de beuf,oignons,bouillons
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="assets/img/menu/IMG_1293(0).jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">pain chocolat</a><span>50 fcfa</span>
+            </div>
+            <div class="menu-ingredients">
+              pain,chocolat,lait,cafe(kango),sucre
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets/img/menu/thieboudienne.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">thiebou dieune</a><span>100 fcfa</span>
+            </div>
+            <div class="menu-ingredients">
+              riz,huile,poissons,bouillons,legumes
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets/img/menu/domodas-3.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">domodas</a><span>100 fcfa</span>
+            </div>
+            <div class="menu-ingredients">
+              riz,huile,poissons,bouillons,farines,legumes
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="assets/img/menu/la-moitie-du-poulet-et-frites-chips-afhdp9.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">poulet aux frites</a><span>100 fcfa</span>
+            </div>
+            <div class="menu-ingredients">
+              poulet,pommes de terre,bouillons
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End resto Section -->
+
+    <!-- ======= s. medical Section ======= -->
+    <section id="specials" class="specials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services medicals</h2>
+          <p>la sante avant tout</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">service medical site vcn </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">service medical hotel du rail</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">ambulance</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>vcn</h3>
+                    <p class="fst-italic">disponible du lundi au samedi de 8h a 18h</p>
+                    <p>
+                      Il contribue a travers ses missions au bien-etre physique, psychique et social des etudiants tout au long de leurs etudes.
+                      soins infirmiers; consultations pour pratiquer un sport; medecine generale;consultations medicales dans le cadre de 
+                      l'amenagement des etudes et des examens pour les situations de handicap; gestion du stress;
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/IMG-20211204-WA0037.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>hotel</h3>
+                    <p class="fst-italic">disponible du lundi au samedi de 8h a 18h</p>
+                    <p>
+                      Il contribue a travers ses missions au bien-etre physique, psychique et social des etudiants tout au long de leurs etudes.
+                      soins infirmiers; consultations pour pratiquer un sport; medecine generale;consultations medicales dans le cadre de 
+                      l'amenagement des etudes et des examens pour les situations de handicap; gestion du stress;
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/campus-thies.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>ambulance</h3>
+                    <p class="fst-italic">disponible a toutes urgenges</p>
+                    <p>son mission consiste au transfert des cas graves</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/Screenshot_20211205-233047~3.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End S.medicale Section -->
+
+    <!-- ======= g.bus Section ======= -->
+    <section id="events" class="events">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>gestion bus</h2>
+          <p>images des bus de transport</p>
+        </div>
+
+        <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/IMG-20211204-WA0051.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>hotel du rail<----->vcn</h3>
+                  <div class="price">
+                    <p><span>50 fcfa</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    assure le transport des etudiants loge a l'hotel du rail et environt
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> 7h hotel  vers vcn.</li>
+                    <li><i class="bi bi-check-circled"></i> 12h vcn vers hotel.</li>
+                    <li><i class="bi bi-check-circled"></i> 14h hotel vers vcn.</li>
+                    <li><i class="bi bi-check-circled"></i> 18h vcn vers hotel.</li>
+                  </ul>
+                  <p>
+                    chaufeur...
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/IMG-20211204-WA0050~2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>(parcelle,ercent,...)<---->vcn</h3>
+                  <div class="price">
+                    <p><span>50 fcfa</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    assure le transport des etudiants loge a parcelles , ercent  et environt.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> 7h ercent  vers vcn.</li>
+                    <li><i class="bi bi-check-circled"></i> 12h vcn vers ercent.</li>
+                    <li><i class="bi bi-check-circled"></i> 14h ercent vers vcn.</li>
+                    <li><i class="bi bi-check-circled"></i> 18h vcn vers ercent.</li>
+                  </ul>
+                  <p>
+                    chauffeur...
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/IMG-20211204-WA0039.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>hotel du rail<---->ufr sante</h3>
+                  <div class="price">
+                    <p><span>50 fcfa</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    assure le transport des etudiants loge a l'hotel et environt vers l'ufr sante.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> 7h hotel  vers ufr sante.</li>
+                    <li><i class="bi bi-check-circled"></i> 12h ufr sante vers hotel.</li>
+                    <li><i class="bi bi-check-circled"></i> 14h hotel vers ufr sante.</li>
+                    <li><i class="bi bi-check-circled"></i> 18h ufr sante vers hotel.</li>
+                  </ul>
+                  <p>
+                    chaufeur...
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End g.bus Section -->
+
+    <!-- ======= site vcn Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Recherche de salle</h2>
+          <p>site vcn</p>
+        </div>
+
+        <form action="" method="post" role="form" class="" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="votre Nom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="votre Email" data-rule="email" data-msg="Please enter a valid email" required>
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="telephone" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" class="form-control" name="time" id="time" placeholder="heure" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="number" class="form-control" name="people" id="people" placeholder="# place" data-rule="minlen:1" data-msg="Please enter at least 1 chars" required>
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="text-center"><button onclick="demandS()" type="submit">envoie demande</button></div>
+        </form>
+
+      </div>
+    </section><!-- End site vcn Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Gallerie</h2>
+          <p>quelques images des campus sociale vcn et hotel du rail</p>
+        </div>
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/IMG-20211204-WA0054.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/IMG-20211204-WA0054.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/IMG-20211204-WA0055.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/IMG-20211204-WA0055.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/IMG-20211204-WA0058.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/IMG-20211204-WA0058.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/IMG-20211204-WA0059.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/IMG-20211204-WA0059.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/IMG-20211204-WA0062.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/IMG-20211204-WA0062.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/IMG-20211204-WA0065.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/IMG-20211204-WA0065.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/IMG-20211204-WA0066.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/IMG-20211204-WA0066.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/IMG-20211204-WA0067.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/IMG-20211204-WA0067.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contactez nous</p>
+        </div>
+      </div>
+      <div class="container" data-aos="fade-up">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Localisation:</h4>
+                <p>thies, site vcn & hotel du rail</p>
+              </div>
+
+              <div class="open-hours">
+                <i class="bi bi-clock"></i>
+                <h4>jours d'ouverture:</h4>
+                <p>
+                  lundi-dimanche:<br>
+                  24h/24 7j/7
+                </p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>webmaster@univ-thies.sn</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>tel : </h4>
+                <p>33 939 76 00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <form action="" method="post" role="form" class="">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="votre Nom" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="votre Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="objet" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+              </div>
+              <div class="text-center"><button onclick="contactez()" type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Campus social</h3>
+              <p>
+                vcn , hotel du rail<br>
+                THIES<br><br>
+                <strong>tel : </strong>33 939 76 00<br>
+                <strong>Email : </strong> webmaster@univ-thies.sn<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>liens utiles</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">ACCUEIL</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">APROPOS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#gallery">images campus sociale</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>NOS Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">ADMINISTRATEUR B.D</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Design</a></li>
+            </ul>
+          </div>
+         
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>developper</h4>
+            <p> contactez nous </p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="csalikh01@gmail.com">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Campus sociale</span></strong>. UIDT
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">@SALIKHOU</a>
+      </div>
+    </div>
+  </footer>
+  <!--====== End Footer====== -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- assets js Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <!--mon scipte-->
+  <script src="scripte.js"></script>
+</body>
+
+</html>
